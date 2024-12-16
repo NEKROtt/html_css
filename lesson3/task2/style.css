@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #020a18;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+.header {
+    backdrop-filter: blur(200px);
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, #fff 100%);
+opacity: 0.02;
+}
